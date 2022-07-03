@@ -21,7 +21,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { isLoggedin } from './actions';
 import Rocket from './Components/Rocket';
 import WhatsAppIcon from './Components/WhatsappIcon';
-import Feedback from './Containers/FeedbackFom/index';
+//import Feedback from './Containers/FeedbackFom/index';
 
 // Lazy Load Component
 const ErrorPage = lazy(() => import('./Containers/404'));
@@ -174,7 +174,7 @@ function App() {
       <Route element={<ErrorPage/>} />
       </Routes>
       </Suspense>
-      <Feedback/>
+     {/* <Feedback/> */}
       <Footer />
       <WhatsAppIcon />
       <Rocket />
