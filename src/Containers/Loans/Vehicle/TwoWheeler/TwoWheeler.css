@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+@media(max-width:768px){
+    .displayornot{
+        display: none !important;
+    }
+}
+@media(min-width:769px){
+    .displayornot1{
+        display:none !important;
+    }
+}

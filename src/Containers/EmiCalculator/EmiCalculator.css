@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+        --div-height:100vh;
+        --bg-size: cover;
+    }
+    .top_div{
+    height: calc(var(--div-height));
+    margin-top: 100px !important;
+    }
+    .CalHeading h2{
+       transform: translateY(-30px);
+    }
+    .Second_div{
+        height: calc(var(--div-height) - 30vh)
+    }
+    .bottom_top_div{
+        height: calc(var(--div-height) - 90vh);
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom_second_div{
+        height: calc(var(--div-height) - 30vh);
+       
+    
+    }
+    .bottom_second_div .column_div {
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow:hidden;
+    }
+    .center_div{
+        width:85vw;
+        min-height:100vh;
+        margin:5vh auto;
+    }
+    .MuiTableCell-root {
+   border: none!important;
+    }
+
+
+    @media (max-width: 992px) {
+        .emi-calc-padding {
+            padding-bottom: 600px !important;
+        }
+    }
+    @media (min-width:429px) and (max-width: 769px) {
+        .emi-calc-padding {
+            padding-bottom: 550px !important;
+        }
+    }
+    @media (min-width:768px) {
+        .emi-calc-padding {
+            padding-bottom: 160px !important;
+        }
+    }
+    @media (max-width: 350px) {
+        .emi-calc-padding {
+            padding-bottom: 650px !important;
+        }
+    }

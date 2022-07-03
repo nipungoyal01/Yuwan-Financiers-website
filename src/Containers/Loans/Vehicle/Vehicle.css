@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.vehicle-section .feature-grids .image img{
+    border-radius: 10px;
+}
+.vehicle-section .feature-grids .image {
+    border-radius: 10px ;
+    width: calc(33.33% -30px);
+    float: left; 
+    margin: 0 15px 30px;
+    
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: .3s ease-in-out,transform 0.3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 15px 6px 18px 0px rgb(0 0 0 / 30%);
+   
+}
+
+.section-padding{
+    background-color: #fff;
+    
+}
+.vehicle-section .feature-grids .image{
+    position: relative;
+    width:400px;
+}
+.vehicle-section .feature-grids .image__img{
+    display:block;
+    width:100%;
+}
+.vehicle-section .feature-grids .image__overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6) ;
+    font-family: 'Quicksand',sans-serif !important;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius:10px;
+}
+.vehicle-section .feature-grids .image__overlay:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+.vehicle-section .feature-grids .image__overlay > * {
+transform: translateY(-20px);
+transition: transform 0.25s;
+}
+.vehicle-section .feature-grids .image__overlay:hover > * {
+transform: translateY(0);
+}
+.vehicle-section .image .image__title{
+    color:#fff !important;
+    font-size: 2em;
+    margin: .6em 10px 1em;
+    text-align: center;
+}
+
+.vehicle-section .image .image__description{
+    font-size: 1.25em;
+        margin: 10px;
+        margin-left: 1em;
+}
+
+.vehicle-section .feature-grids .image:hover {
+    box-shadow: 4px 11px 24px rgba(35,61,98,.1);
+    transform:scale(1.05);
+}
+
+.vehicle-section .grid h3{
+    visibility: hidden;
+}
+.vehicle-section .grid:hover > h3{
+   visibility: visible;
+} 
+.vehicle-section .grid p{
+    visibility: hidden;
+}
+.vehicle-section .grid:hover > p{
+    visibility: visible;
+}
+.vehicle-section .feature-grids .image:hover p, .vehicle-section .feature-grids .grid:hover h3, .vehicle-section .feature-grids .grid:hover i::before {
+    color: #fff !important;
+}
+
+.vehicle-section .grid i::before {
+    font-size: 4rem;
+}
+
+
+@media (max-width: 991px) {
+    .section-padding{
+        padding-top:20px !important;
+    }
+}
+@media(max-width:768px){
+    .vehicle-section .feature-grids .image{
+        width:100%;
+    }
+}
+@media (max-width:1199px) {
+    .vehicle-section .feature-grids .image {
+        
+    }}
+@media (min-width:992px){
+    .vehicle-section .feature-grids .image{
+        width: calc(40% - 10px);
+        margin-left:70px;
+    }
+     
+    
+}
+@media(max-width:991px){
+.vehicle-section .feature-grids .image {
+    width: calc(50% - 30px);
+}
+.about-us-section .img-holder {
+    margin-top: 50px;
+}
+}
+@media(max-width:767px){
+    .vehicle-section .feature-grids .image {
+        width: calc(100% - 30px);
+    }
+}
+@media (min-width:220px) and (max-width:991px){
+    .img-container{
+        display:none;
+    }
+}
+@media (max-width: 767px) {
+    .vehicle-section .grid h3 {
+        font-size: 1.2rem;
+    }
+
+    .vehicle-section .grid i::before {
+        font-size: 3.33333rem;
+    }
+
+    
+}
+
+/*vehicle section 2*/
+.Vehicle-section-2{
+    background-color:#fff ;
+    padding-top: 0px;
+}
+.testimonial-content-active {
+    max-width: 755px;
+    margin: 30px auto 0;
+    position: relative;
+}
+.Vehicle-section-2 .testimonial-heading {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:#fff !important;
+    position: relative;
+    font-size: 1.6rem !important;
+    margin-top: 50px;
+}
+.testimonial-heading h2::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    transform: scaleX(0);
+    height:2px;
+    bottom: 0;
+    left: 0;
+    background-color: #853535;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.testimonial-heading h2:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+@media(min-width:991px){
+    .testimonial-heading{
+        padding-left:35px;
+    }
+}
+.testimonial-img img {
+    border-radius: 50%;
+    margin: auto auto 30px;
+}
+
+.testimonial-home-section .grid .quote p {
+    font-size: 1.27rem;
+}
+
+.Vehicle-section-2 .grid .info h5 {
+    font-size: 1.06667rem;
+    margin: 2em 0 .3em;
+    color:white !important;
+}
+
+.testimonial-home-section .grid .info p {
+    font-size: .86667rem;
+    margin: 0;
+    color: #FC6E36;
+}
+
+.testimonial-home-section .grid {
+    box-shadow: none !important;
+}
+
+/*FAQ section*/
+.faq-section{
+    margin-bottom: 2rem;
+}
+.faq-section .faq-heading {
+    display: flex !important;
+    flex-direction: row !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color:#fff !important;
+    position: relative;
+    font-size: 1.6rem !important;
+    margin-bottom: 4rem;
+}
+.faq-heading h2::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    transform: scaleX(0);
+    height:2px;
+    bottom: 0;
+    left: 0;
+    background-color: #853535;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.faq-heading h2:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+@media(min-width:991px){
+    .faq-heading{
+        padding-left:35px;
+    }
+}
+
+.accordion .card {
+    margin-bottom: 30px;
+    background: #fff;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 15px 6px 18px 0px rgb(0 0 0 / 30%);
+}
+
+.accordion .card:hover {
+    cursor: pointer;
+}
+
+.accordion .card .card-header {
+    background-color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    font-weight:600;
+    display: block;
+    padding: 25px 35px;
+    position: relative;
+}
+
+.accordion .card .card-header i {
+    margin-left: 10%;
+    align-self: center;
+}
+
+.accordion .card .card-header i::before {
+    font-size: 1.7rem;
+    color: #d4d8e1;
+    
+}
+
+.accordion .card .card-body {
+    color: black;
+}
+
+.faq-grids {
+    margin-top: 235px;
+    position: relative;
+}
+
+.faq-section .grid {
+    background-color: #fc6e36;
+    width: 185px;
+    height: 185px;
+    line-height: 185px;
+    border-radius: 50%;
+    text-align: center;
+    display: table;
+    position: absolute;
+}
+
+.faq-section .faq-grids>.grid:first-child {
+    left: 150px;
+}
+
+.faq-section .faq-grids>.grid:nth-child(2) {
+    background-color: #5197cf;
+    top: 130px;
+}
+
+.faq-section .faq-grids>.grid:nth-child(3) {
+    background-color: #c334d2;
+    width: 135px;
+    height: 135px;
+    top: 225px;
+    left: 215px;
+}
+
+.faq-section .faq-grids>.grid:nth-child(4) {
+    background-color: #2842b0;
+    width: 145px;
+    height: 145px;
+    top: 145px;
+    left: 340px;
+}
+
+.faq-grids .grid .info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.faq-grids .grid h3 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin: 0;
+}
+
+.faq-grids .grid p {
+    font-size: 1.06667rem;
+    color: #fff;
+    margin: 0;
+}
+
+.faq-section .faq-grids>.grid:nth-child(3) h3 {
+    font-size: 2.66667rem;
+}
+
+.faq-section .faq-grids>.grid:nth-child(4) h3 {
+    font-size: 2.4rem;
+}
+
+@media (max-width: 1199px) {
+    .faq-section .faq-grids {
+        height: 350px;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 550px) {
+    .faq-section .grid {
+        width: 50%;
+        float: left;
+        border-radius: 0;
+        position: static;
+    }
+
+    .faq-section .faq-grids>.grid:nth-child(3),  .faq-section .faq-grids>.grid:nth-child(4) {
+        width: 50%;
+        float: left;
+        position: static;
+        border-radius: 0;
+        height: 185px;
+    }
+}
+
+@media (max-width: 991px) {
+    .faq-section::before {
+        width: 100%;
+    }
+}

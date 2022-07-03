@@ -1,0 +1,14 @@
+{
+  "short_name": "The Miracle SOlutions",
+  "icons": [
+    {
+      "src": "fav.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
+ 
+  "display": "standalone",
+  "theme_color": "#2842B1",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,224 @@
+@media(min-width:992px) and (max-width:1145px){
+    .navbar{
+        padding: .5rem 0rem !important;
+    }
+}
+.social-handles{
+    display:flex;
+    justify-content: flex-end;
+}
+
+@media(max-width:991px){
+    .navbar-collapse{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        }
+}
+@media(min-width:992px){
+    .social-handles{
+        margin-left: auto!important;
+    }
+}
+/* @media(min-width:1290px){
+   .navbar-nav{
+        padding: .5rem 6rem !important;
+    }
+}
+@media (min-width: 1146px){
+    .navbar-nav {
+        padding: .5rem 1rem !important;
+    }
+} */
+@media(min-width:1040px){
+
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+    }
+}
+.dropdown-menu{
+    display: none;
+    position:absolute;
+    background-color: #853535;
+    box-shadow: 15px 6px 18px 0px rgb(0 0 0 / 30%);
+    text-align: center!important;
+    z-index:1;
+    border: 1px solid #853535;
+    border-radius: 10px !important;
+}
+#sub-dropdown-menu{
+    display:none;
+    position: absolute;
+    top: -6px;
+    left:145px;
+    background-color: #fff;
+    padding:10px;
+}
+@media(max-width:992px){
+    #sub-dropdown-menu{
+        position: static;
+}
+}
+#sub-dropdown-menu li{
+    padding:4px;
+}
+#sub-dropdown-menu a , .dropdown-menu a{
+    color:#853535 !important;
+    font-size:18px !important;
+} 
+#sub-dropdown-menu a:hover{
+
+    color: #FC6E36 !important;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+    transition: all 0.3s ease-in-out;
+    padding:5px;
+}
+.dropdown-menu li{
+    padding:2px;
+}
+
+.dropdown:hover .dropdown-menu a:hover{
+background-color: transparent;
+color: #FC6E36 !important;
+
+}
+#sub-dropdown:hover #sub-dropdown-menu{
+   display:block;
+  transition: all 0.3s ease-in-out;
+    }
+  
+    #loans a{
+        color:#853535;
+        font-weight: 600;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    }
+    #loans{
+        padding: 0px 20px;
+ 
+    }
+
+@media(max-width:992px){
+    #loans{
+transform: translateY(0);
+padding: 10px 25px;
+    }
+}
+
+
+.social-handles .social-icons{
+    display:flex;
+    flex-direction: row;
+  width:100%;
+  text-align: end;
+  padding:8px;
+  color:#853535;
+}
+
+.social-media{
+    list-style-type: none;
+}
+.social-media i{
+    list-style-type: none;
+    padding:8px;
+    color:#853535;
+}
+.social-media i:hover{
+    color:#FC6E36;
+}
+
+ .nav1{
+    margin:0;
+    padding:0;
+}
+
+.navLink {
+    font-weight: 600;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    color: #853535;
+     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+     padding-bottom: 10px; 
+}
+
+
+.navbar-nav a{
+    position: relative;
+}
+ 
+.activeNavLink::before,.navbar-nav a:hover::before{
+    opacity: 1 !important;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 25px;
+    padding-top: 10px;
+} 
+
+#loans a:hover{
+    color: #FC6E36;
+
+}
+
+
+.activeNavLink{
+    color: #FC6E36;
+    font-weight: 700;
+
+}
+
+
+
+.dropdown .activeNavLink{
+    color:#FC6E36;
+    font-weight: 700;
+  
+  
+}
+
+
+    
+
+.navbar-scroll-color {
+
+    background: rgb(228, 217, 217);
+    transition: 0.3s ease;
+}
+ .navbar-scroll-margin{
+    transition: 0.3s ease-in-out;    
+    background: #fff;
+  
+}
+.navDiv{
+    background-color: #fff;
+}
+@media (max-width: 992px) {
+    .navDiv{
+        background: #fff;
+    }
+    
+    .navbar-light .navbar-toggler {
+        border-color: #853535 !important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem; 
+}
+}
+@media(max-width:1100){
+    .navLink{
+        padding-bottom: 30px !important;
+    }
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+flex-basis: none !important;
+}
+
+}

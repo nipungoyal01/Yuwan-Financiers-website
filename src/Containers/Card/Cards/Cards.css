@@ -1,0 +1,10 @@
+.Card-Section{
+display: flex;
+justify-content: space-between;
+
+}
+
+.sidebar{
+    width:27%;
+    border:1px solid #853535;
+}

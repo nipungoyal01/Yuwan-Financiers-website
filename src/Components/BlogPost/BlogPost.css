@@ -1,0 +1,47 @@
+.blogPost{
+    width:70%;
+    box-shadow: 6px 6px 18px 0px rgb(0 0 0 / 30%);
+    border-radius: 10px 10px 10px 10px;
+
+    }
+
+    .blogHeader {
+       text-align: center;
+       padding-top:10px;
+       font-size: 15px;
+    }
+    .blogHeader .head-title{
+        text-transform:uppercase;
+        font-size: 15px;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+    .post-title{
+        letter-spacing: 0.5px;
+        text-transform: capitalize;
+        font-size: 30px;
+        padding: 10px 0;
+        
+    }
+    .posted-by{
+        font-size:14x;
+        margin:0;
+        color:#6c6c6c;
+    }
+    .Main-span{
+        color:black;
+        font-weight: 500;
+    }
+    .postimage{
+        width:100%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .post-content{
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .postimage img{
+        max-width: 100%;
+        max-height:100%;
+    }
